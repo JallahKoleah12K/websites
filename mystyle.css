@@ -1,12 +1,12 @@
 body {
     margin: 40px;
     padding: 40px;
-    background-color: #FFF8DC;
-    border: 1px solid #808080;
+    background-color:blue
 }
-h1 {
+.jk{
     text-align: center;
     color: #FF8C00;
+    font-family: 50px;
 }
 
 
