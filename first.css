@@ -1,0 +1,20 @@
+body{
+    background-color:brown
+}
+a, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color:aqua
+}
+.name{
+    text-align: center;
+    color:cadetblue
+}
+.v{
+    text-align: center;
+    font-size: larger;
+    color:blueviolet
+}

@@ -5,6 +5,10 @@
         <title>Block-level Elements</title>
     </head>
     <style>
+        .foo{
+            text-align: center;
+            color:deeppink
+        }
         h1{
             text-align: center;
             color: #8B4513;
@@ -49,9 +53,11 @@ whitespace.
         </div>
         <p>The two paragraphs above are inside a division element. There was no visible change to the page from putting the paragraphs inside the division.</p>
         <!--content ends above here-->
-        <footer style="text-align: center;">
+        <footer class="foo">
             <a href="http://validator.w3.org/check/referer">
-            <strong> HTML </strong> Valid! </a>
-        </footer>
+                <strong> HTML </strong> Valid! </a>  
+                <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+                <strong> CSS </strong> Valid! </a>
+            </footer>
     </body>
 </html>

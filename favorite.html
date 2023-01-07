@@ -4,9 +4,28 @@
         <meta charset="utf-8">
         <title>My Favorite Web Sites</title>
     </head>
+    <style>
+        body{
+            margin: 50px;
+            padding: 40px;
+            background-color:black
+        }
+        h1{
+            text-align: center;
+            color:aliceblue
+        }
+        .web{
+            text-align: center;
+            color:brown
+        }
+        .foo{
+            text-align: center;
+        }
+    </style>
     <body>
         <h1>My Favorite Web Sites</h1>
         <!--content starts below here-->
+        <web class="web">
         <ol type="1">
            <li><a href="http://wikipedia.org">Wikipedia</a> </li> 
            <li><a href="http://whatsapp.org">WhatsApp</a> </li>
@@ -14,12 +33,14 @@
            <li><a href="wiktionary.org">Wiktionary</a> </li>
            <li><a href="wikimedia.org">Wikimedia Commons</a> </li>
            <li><a href="Signal.org">Signal</a> </li>
+        </web>
         </ol>
         <!--content ends above here-->
-        <footer style="text-align: center;">
+        <footer class="foo">
             <a href="http://validator.w3.org/check/referer">
-                <strong>HTML</strong> Valid!
-            </a>
+                <strong> HTML </strong> Valid! </a>  
+                <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+                <strong> CSS </strong> Valid! </a>
         </footer>
     </body>
 </html>

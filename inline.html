@@ -5,10 +5,14 @@
         <title>Inline Elements</title>
     </head>
     <style>
+        .foo{
+            text-align: center;
+            color:antiquewhite
+        }
         body {
     margin: 40px;
     padding: 40px;
-    background-color:blue
+    background-color:darkgray
     }
         h1{
             color:black
@@ -49,11 +53,12 @@
         <p>Superscrip and subscript elements to what they say. <sup class="sup">this is superscript</sup> and <sub class="sub">this is subscript.</sub></p>
         <span>Span elements don't seem to do anything at all. I've put about every other inside span tags. Can you tell which is which?</span>
         <!--content ends above here--><br>        
-        <footer style="text-align: center;">
-        <a href="https://validator.w3.org/check/referer">
-            <strong>HTML</strong> Valid!
-        </a>
-        </footer>
+        <footer class="foo">
+            <a href="http://validator.w3.org/check/referer">
+                <strong> HTML </strong> Valid! </a>  
+                <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+                <strong> CSS </strong> Valid! </a>
+            </footer>
 
     </body>
 </html>

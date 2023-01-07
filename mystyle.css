@@ -1,12 +1,12 @@
-body {
+body{
     margin: 40px;
     padding: 40px;
-    background-color:blue
+    background-color:cyan
 }
 .jk{
     text-align: center;
     color: #FF8C00;
-    font-family: 50px;
+    text-shadow: #8B4513;
 }
 
 
